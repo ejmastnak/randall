@@ -1,0 +1,5 @@
+let $VIFM_CONTEXT = expand('%d')
+
+source $VIFM/navigation/vue.vifm
+
+nnoremap ;tt :goto $VIFM_CONTEXT/../TODO.md<CR>
