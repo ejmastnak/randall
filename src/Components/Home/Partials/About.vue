@@ -7,7 +7,7 @@
       <!-- Image -->
       <img 
       src="@/assets/img/placeholder.png"
-      alt="Flowers"
+      alt="Artisanal Restoration logo"
       class="w-full h-56 mx-auto md:w-96 md:h-96 object-cover rounded-md"
     />
       <div class="md:px-8 py-4 md:py-6 lg:ml-12 text-lg lg:text-xl">
