@@ -1,5 +1,5 @@
 <script setup>
-import FooterLink from '@/Components/FooterLink.vue'
+import FooterLink from './Partials/FooterLink.vue'
 </script>
 
 <template>

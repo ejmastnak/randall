@@ -1,6 +1,6 @@
 <script setup>
-  import Header from '@/Components/Header.vue';
-  import Footer from '@/Components/Footer.vue';
+  import Header from '@/Shared/Header.vue';
+  import Footer from '@/Shared/Footer.vue';
   import Hero from './Partials/Hero.vue';
   import About from './Partials/About.vue';
   import Services from './Partials/Services.vue';

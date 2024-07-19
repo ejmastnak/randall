@@ -1,5 +1,5 @@
 <script setup>
-import ServicePanel from './ServicePanel.vue'
+import ServicePanel from '@/Components/ServicePanel.vue'
 </script>
 <template>
 
