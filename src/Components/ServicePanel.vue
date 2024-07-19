@@ -15,12 +15,12 @@ const props = defineProps({
 <template>
   <div class="md:flex mt-10 px-4" :class="reverse ? 'flex-row-reverse' : ''">
 
-    <!-- Product title (mobile only) -->
+    <!-- Service title (mobile only) -->
     <p class="md:hidden text-center mb-5 text-3xl font-['Latin_Modern_Roman']">
       {{titleText}}
     </p>
 
-    <!-- Product image -->
+    <!-- Service image -->
     <div class="md:w-96 shrink-0 grid place-items-center">
           <img 
         :src="'/src/assets/img/' + imgFile"
@@ -31,7 +31,7 @@ const props = defineProps({
     </div>
 
     <div class="px-4 md:px-8 lg:px-14 mt-4">
-      <!-- Product title (desktop only) -->
+      <!-- Service title (desktop only) -->
       <p class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman']">
         {{titleText}}
       </p>

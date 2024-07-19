@@ -47,7 +47,7 @@ import Testimonial from '@/Components/Testimonial.vue'
     </ul>
 
     <p class="mt-8">
-      You can find more review of Artisanal Restoration on <a class="text-blue-600 hover:underline hover:text-blue-700" href="https://www.homeadvisor.com/rated.ArtisanalRestoration.51600239.html">HomeAdvisor</a>.
+      You can find more reviews of Artisanal Restoration on <a class="text-blue-600 hover:underline hover:text-blue-700" href="https://www.homeadvisor.com/rated.ArtisanalRestoration.51600239.html">HomeAdvisor</a>.
     </p>
 
   </div>

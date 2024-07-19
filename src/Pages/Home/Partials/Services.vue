@@ -11,7 +11,7 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       :reverse="true"
       imgFile="evelyn-front.jpg"
       imgAlt="A 1910 home in Princeton, NJ served by Artisanal Restoration"
-      imgClasses="h-56 md:h-80"
+      imgClasses="h-64 md:h-80 object-top w-full max-w-lg md:max-w-lg object-top md:object-center"
       titleText="Renovation and restoration of historic homes"
       linkText="Read more"
     >
@@ -25,7 +25,7 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       :reverse="false"
       imgFile="furniture-restoration.jpg"
       imgAlt="An antique table being restored in the Artisanal Restoration workshop"
-      imgClasses="object-right-bottom "
+      imgClasses="h-64 sm:h-72 md:h-80 object-top w-full max-w-lg md:max-w-lg object-right"
       titleText="Restoration of antique pieces"
       linkText="Read more"
     >
@@ -38,11 +38,11 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       :reverse="true"
       imgFile="furniture-painting-table.jpg"
       imgAlt="A custom table built to match the art and wall color in a parlor"
-      imgClasses="h-56 md:h-96"
+      imgClasses="w-56 md:h-96"
       titleText="Custom-built furniture and cabinets"
       linkText="Read more"
     >
-      Not only do we build custom furniture and cabinetry to almost any size and specification, we will work with you through the design process from start to finish to ensure the piece exactly fits, both functionally and aesthetically, the special role it will soon fulfill in your home.
+      We build custom furniture and cabinetry to almost any size and specification and will work with you through the design process from start to finish to ensure the piece exactly fits, both functionally and aesthetically, the special role it will fulfill in your home.
       Tell us about your dream piece, and we'll design and create it to match the dimensions, aesthetics, and unique character of your home.
     </ServicePanel>
 
@@ -66,6 +66,7 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       :reverse="true"
       imgFile="evelyn-stairs-fineal.jpg"
       imgAlt="A detail image of the finish carpentry on a fineal custom-built for a staircase in a Princeton, NJ home"
+      imgClasses="w-full max-w-md object-center"
       titleText="More"
       linkText="Read more"
     >

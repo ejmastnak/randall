@@ -30,9 +30,9 @@ const mobileMenuShowing = ref(false)
 
       <!-- Mobile -->
       <div class="relative flex md:hidden justify-between pt-3 pb-5 px-4">
-        <a href="#" class="ml-1 xs:ml-2 font-['Latin_Modern_Roman'] text-3xl xs:text-4xl xs:tracking-wide hover:text-blue-800">
+        <HeaderLink route="/" class="ml-1 xs:ml-2 font-['Latin_Modern_Roman'] text-3xl xs:text-4xl xs:tracking-wide hover:text-blue-800">
           Artisanal Restoration
-        </a>
+        </HeaderLink>
         <button type="button" class="ml-2" >
           <Bars3Icon v-show="!mobileMenuShowing" class="text-gray-600 h-[1.75rem] w-[1.75rem] xs:h-[2rem] xs:w-[2rem]" @click="mobileMenuShowing = !mobileMenuShowing" />
           <XMarkIcon v-show="mobileMenuShowing" class="text-gray-600 h-[1.75rem] w-[1.75rem] xs:h-[2rem] xs:w-[2rem]" @click="mobileMenuShowing = !mobileMenuShowing" />
