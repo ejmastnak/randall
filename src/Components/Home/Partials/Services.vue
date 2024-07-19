@@ -69,14 +69,14 @@ import ServicePanel from './ServicePanel.vue'
       titleText="More"
       linkText="Read more"
     >
-      A full list of services includes:
+      Additional services offered by Artisanal Restoration include:
       <ul class="list-disc ml-5 mt-2">
-        <li>Regular service and maintenance of historic homes</li>
         <li>Bespoke home additions</li>
         <li>Custom trim and finish carpentry</li>
         <li>Stair construction and restoration</li>
         <li>Service of windows and doors</li>
         <li>Interior and exterior rot restoration</li>
+        <li>Regular service and maintenance of historic homes</li>
       </ul>
 
     </ServicePanel>

@@ -39,7 +39,7 @@ const props = defineProps({
       <p class="text-lg lg:text-xl text-gray-600 leading-relaxed">
         <slot/>
       </p>
-      <a href="#" class="mt-4 md:mt-5 lg:mt-8 block w-fit mx-auto rounded-md border border-blue-900 px-4 py-2 text-xl text-blue-900 hover:bg-sky-50">
+      <a href="#" class="mt-4 md:mt-5 lg:mt-8 block w-fit mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 ">
         {{linkText}}
       </a>
     </div>
