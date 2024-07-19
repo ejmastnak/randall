@@ -15,7 +15,7 @@ const mobileMenuShowing = ref(false)
       <!-- Desktop -->
       <div class="hidden md:flex justify-between items-center pt-3 pb-5 px-4">
         <HeaderLink route="/">Home</HeaderLink>
-        <HeaderLink route="/">About</HeaderLink>
+        <HeaderLink route="/about">About</HeaderLink>
         <HeaderLink route="/">Services</HeaderLink>
         <HeaderLink route="/" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800">
           <div class="text-center tracking-wider">
@@ -44,7 +44,7 @@ const mobileMenuShowing = ref(false)
     <div v-show="mobileMenuShowing" class="absolute right-0 w-fit bg-white border-x border-b border-gray-300">
       <div class="relative px-8 pt-6 pb-8 text-left w-fit mx-auto space-y-4">
         <HeaderLink class="border-b" route="/">Home</HeaderLink>
-        <HeaderLink class="border-b" route="/">About</HeaderLink>
+        <HeaderLink class="border-b" route="/about">About</HeaderLink>
         <HeaderLink class="border-b" route="/">Services</HeaderLink>
         <HeaderLink class="border-b" route="/">Portfolio</HeaderLink>
         <HeaderLink class="border-b" route="/testimonials">Testimonials</HeaderLink>
