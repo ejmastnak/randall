@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="mx-auto">
+  <div>
     <Hero />
     <About class="-mt-2 sm:-mt-8" />
     <Services class="mt-12" />

@@ -2,7 +2,7 @@
 
   <div>
     <!-- Title -->
-    <p class="text-center text-4xl md:text-5xl font-['Latin_Modern_Roman']">About</p>
+    <h2 class="text-center text-4xl md:text-5xl font-['Latin_Modern_Roman']">About</h2>
     <div class="md:flex mt-4 md:mt-10 px-6  text-gray-700">
       <!-- Image -->
       <img 
@@ -10,7 +10,7 @@
       alt="Artisanal Restoration logo"
       class="w-full h-56 mx-auto md:w-96 md:h-96 object-cover rounded-md"
     />
-      <div class="md:px-8 py-4 md:py-6 lg:ml-12 text-lg lg:text-xl">
+      <div class="md:px-8 py-4 md:py-6 lg:ml-12">
 
         <p class="max-w-2xl">
           Artisanal Restoration is the one-man company of master carpenter and cabinetmaker Randall Basti.

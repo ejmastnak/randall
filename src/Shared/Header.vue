@@ -14,18 +14,18 @@ const mobileMenuShowing = ref(false)
 
       <!-- Desktop -->
       <div class="hidden md:flex justify-between items-center pt-3 pb-5 px-4">
-        <HeaderLink href="#">Home</HeaderLink>
-        <HeaderLink href="#">About</HeaderLink>
-        <HeaderLink href="#">Services</HeaderLink>
-        <a href="#" class="font-['Latin_Modern_Roman'] text-3xl tracking-wide hover:text-blue-800">
+        <HeaderLink route="/">Home</HeaderLink>
+        <HeaderLink route="/">About</HeaderLink>
+        <HeaderLink route="/">Services</HeaderLink>
+        <HeaderLink route="/" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800">
           <div class="text-center tracking-wider">
             <p>Artisanal</p>
             <p class="-mt-1.5">Restoration</p>
           </div>
-        </a>
-        <HeaderLink href="#">Portfolio</HeaderLink>
-        <HeaderLink href="#">Testimonials</HeaderLink>
-        <HeaderLink href="#">Contact</HeaderLink>
+        </HeaderLink>
+        <HeaderLink route="/">Portfolio</HeaderLink>
+        <HeaderLink route="/">Testimonials</HeaderLink>
+        <HeaderLink route="/contact">Contact</HeaderLink>
       </div>
 
       <!-- Mobile -->
@@ -43,12 +43,12 @@ const mobileMenuShowing = ref(false)
 
     <div v-show="mobileMenuShowing" class="absolute right-0 w-fit bg-white border-x border-b border-gray-300">
       <div class="relative px-8 pt-6 pb-8 text-left w-fit mx-auto space-y-4">
-        <HeaderLink class="border-b" href="#">Home</HeaderLink>
-        <HeaderLink class="border-b" href="#">About</HeaderLink>
-        <HeaderLink class="border-b" href="#">Services</HeaderLink>
-        <HeaderLink class="border-b" href="#">Portfolio</HeaderLink>
-        <HeaderLink class="border-b" href="#">Testimonials</HeaderLink>
-        <HeaderLink class="border-b" href="#">Contact</HeaderLink>
+        <HeaderLink class="border-b" route="/">Home</HeaderLink>
+        <HeaderLink class="border-b" route="/">About</HeaderLink>
+        <HeaderLink class="border-b" route="/">Services</HeaderLink>
+        <HeaderLink class="border-b" route="/">Portfolio</HeaderLink>
+        <HeaderLink class="border-b" route="/">Testimonials</HeaderLink>
+        <HeaderLink class="border-b" route="/contact">Contact</HeaderLink>
       </div>
     </div>
 

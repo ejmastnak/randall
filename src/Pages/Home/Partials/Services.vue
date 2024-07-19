@@ -4,7 +4,7 @@ import ServicePanel from '@/Components/ServicePanel.vue'
 <template>
 
   <div class="max-w-6xl mx-auto">
-    <p class="text-center text-5xl font-['Latin_Modern_Roman']">Services</p>
+    <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">Services</h2>
 
     <ServicePanel
       class="mt-5 md:mt-12"
