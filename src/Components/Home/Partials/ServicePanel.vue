@@ -4,24 +4,31 @@ const props = defineProps({
   imgFile: String,
   imgAlt: String,
   titleText: String,
-  linkText: String
+  linkText: String,
+  imgClasses: {
+    type: String,
+    default: "",
+  },
 })
 </script>
 
 <template>
   <div class="md:flex mt-10 px-4" :class="reverse ? 'flex-row-reverse' : ''">
 
-      <!-- Product title (mobile only) -->
+    <!-- Product title (mobile only) -->
     <p class="md:hidden text-center mb-5 text-3xl font-['Latin_Modern_Roman']">
       {{titleText}}
     </p>
 
     <!-- Product image -->
-    <img 
-      :src="'/src/assets/img/' + imgFile"
-      :alt="imgAlt"
-      class="w-full h-56 mx-auto md:w-96 md:h-96 object-cover rounded-md"
-    />
+    <div class="md:w-96 shrink-0 grid place-items-center">
+          <img 
+        :src="'/src/assets/img/' + imgFile"
+        :alt="imgAlt"
+        class="mx-auto my-auto object-cover rounded-md"
+        :class="imgClasses"
+      />
+    </div>
 
     <div class="px-4 md:px-8 lg:px-14 mt-4">
       <!-- Product title (desktop only) -->

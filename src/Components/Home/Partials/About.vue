@@ -6,13 +6,19 @@
     <div class="md:flex mt-4 md:mt-10 px-6  text-gray-700">
       <!-- Image -->
       <img 
-        src="@/assets/img/flowers.jpg"
-        alt="Flowers"
-        class="w-full h-56 mx-auto md:w-96 md:h-96 object-cover rounded-md"
-      />
+      src="@/assets/img/placeholder.png"
+      alt="Flowers"
+      class="w-full h-56 mx-auto md:w-96 md:h-96 object-cover rounded-md"
+    />
       <div class="md:px-8 py-4 md:py-6 lg:ml-12 text-lg lg:text-xl">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+        <p class="max-w-2xl">
+          Artisanal Restoration is the one-man company of master carpenter and cabinetmaker Randall Basti.
+        </p>
+
+        <p class="mt-5 max-w-2xl">
+          Randall has been woodworking since high school and carries over three decades of professional experience in carpentry and adjacent trades.
+          After taking an N-year detour working as X for Bank of America in the 20N0s, where he gained valuable experience in management, administration, and business operations, he opened Artisanal Restoration and has spent N successful years serving historic homes in the Central New Jersey area.
         </p>
         <a href="#" class="w-fit block mt-4 md:mt-8 mx-auto rounded-md border border-gray-500 px-4 py-2 text-xl hover:bg-sky-50">
           Read more
