@@ -45,7 +45,7 @@ async function submitForm() {
 </script>
 
 <template>
-  <div class="max-w-5xl px-4 py-16">
+  <div class="max-w-5xl py-16">
     <h1 class="text-5xl font-['Latin_Modern_Roman']">Contact</h1>
 
     <p class="mt-8 text-gray-700 max-w-xl">
@@ -139,7 +139,6 @@ async function submitForm() {
         <li>By email at <a href="mailto:rbasti@comcast.net">rbasti@comcast.net</a></li>
       </ul>
     </div>
-
 
   </div>
 </template>

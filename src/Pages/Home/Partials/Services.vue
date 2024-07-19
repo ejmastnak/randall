@@ -3,7 +3,7 @@ import ServicePanel from '@/Components/ServicePanel.vue'
 </script>
 <template>
 
-  <div class="max-w-6xl mx-auto">
+  <div>
     <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">Services</h2>
 
     <ServicePanel

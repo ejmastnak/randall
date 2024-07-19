@@ -9,7 +9,7 @@ const mobileMenuShowing = ref(false)
 </script>
 
 <template>
-  <div class="sticky top-0 bg-white border-b z-10">
+  <div class="sticky top-0 bg-white border-b z-20">
     <div class="max-w-5xl mx-auto">
 
       <!-- Desktop -->
@@ -24,7 +24,7 @@ const mobileMenuShowing = ref(false)
           </div>
         </HeaderLink>
         <HeaderLink route="/">Portfolio</HeaderLink>
-        <HeaderLink route="/">Testimonials</HeaderLink>
+        <HeaderLink route="/testimonials">Testimonials</HeaderLink>
         <HeaderLink route="/contact">Contact</HeaderLink>
       </div>
 
@@ -47,7 +47,7 @@ const mobileMenuShowing = ref(false)
         <HeaderLink class="border-b" route="/">About</HeaderLink>
         <HeaderLink class="border-b" route="/">Services</HeaderLink>
         <HeaderLink class="border-b" route="/">Portfolio</HeaderLink>
-        <HeaderLink class="border-b" route="/">Testimonials</HeaderLink>
+        <HeaderLink class="border-b" route="/testimonials">Testimonials</HeaderLink>
         <HeaderLink class="border-b" route="/contact">Contact</HeaderLink>
       </div>
     </div>
