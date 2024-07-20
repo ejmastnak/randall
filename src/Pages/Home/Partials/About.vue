@@ -13,7 +13,7 @@
       <div class="md:px-8 py-4 md:py-6 lg:ml-12">
 
         <p class="max-w-2xl">
-          Artisanal Restoration is the one-man company of master carpenter and cabinetmaker Randall Basti.
+          Artisanal Restoration is the one-man company of master carpenter and cabinetmaker Randall Basti, and specializes in the restoration, renovation, and maintenance of historic homes in the Central New Jersey area.
         </p>
 
         <p class="mt-5 max-w-2xl">
@@ -22,7 +22,7 @@
         </p>
 
         <RouterLink to="/about" class="w-fit block mt-3 md:mt-8 mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 ">
-          Read more
+          More about us
         </RouterLink>
 
 

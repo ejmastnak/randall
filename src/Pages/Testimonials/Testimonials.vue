@@ -3,7 +3,7 @@ import Testimonial from '@/Components/Testimonial.vue'
 </script>
 <template>
 
-  <div class="max-w-5xl py-16">
+  <div class="max-w-5xl py-12">
 
     <h1 class="text-5xl font-['Latin_Modern_Roman']">Testimonials</h1>
 
@@ -12,7 +12,7 @@ import Testimonial from '@/Components/Testimonial.vue'
         You can find more reviews on <a class="text-blue-600 hover:underline hover:text-blue-700" href="https://www.homeadvisor.com/rated.ArtisanalRestoration.51600239.html">HomeAdvisor</a>.
     </p>
 
-    <ul class="mt-10 ml-5 space-y-8">
+    <ul class="mt-12 ml-5 space-y-8">
 
       <li>
         <Testimonial client="Kathy L." :reverse="false">

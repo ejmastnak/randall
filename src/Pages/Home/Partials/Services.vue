@@ -15,9 +15,9 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       titleText="Renovation and restoration of historic homes"
       linkText="Read more"
     >
-      Artisanal Restoration specializes in the service of historic homes, handling everything from routine maintenance to full-on renovations.
-      Decades' experience working on houses from the 18th century onwards coupled with a meticulous eye for detail and high technical skill let us recognize and adapt to each home's history eccentrities and history on a case by case basis.
-      Our work will always be age-appropriate and preserve the unique character of your home.
+      Artisanal Restoration specializes in the service of historic homes, handling everything from routine maintenance to full-scale renovations.
+      Decades' experience working on houses from the 18th century onwards let us recognize and adapt to each home's history eccentrities and history on a case by case basis.
+      Our work will always be faithful to the time period and unique character of your home.
     </ServicePanel>
 
     <ServicePanel
@@ -68,7 +68,7 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       imgAlt="A detail image of the finish carpentry on a fineal custom-built for a staircase in a Princeton, NJ home"
       imgClasses="w-full max-w-md object-center"
       titleText="More"
-      linkText="Read more"
+      linkText="Full list of services"
     >
       Additional services offered by Artisanal Restoration include:
       <ul class="list-disc ml-5 mt-2">

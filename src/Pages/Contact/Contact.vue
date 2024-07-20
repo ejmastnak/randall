@@ -48,7 +48,7 @@ async function submitForm() {
   <div class="max-w-5xl py-12">
     <h1 class="text-5xl font-['Latin_Modern_Roman']">Contact</h1>
 
-    <p class="mt-8 text-gray-700 max-w-xl">
+    <p class="mt-8 text-gray-700 max-w-2xl">
       Schedule a consultation or ask questions using the contact form below.
       We need either your email or phone so we can respond to you; leave whichever you prefer.
     </p>

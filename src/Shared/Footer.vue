@@ -1,7 +1,3 @@
-<script setup>
-import FooterLink from './Partials/FooterLink.vue'
-</script>
-
 <template>
   <div>
     <!-- Background pattern -->
