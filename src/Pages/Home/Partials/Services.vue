@@ -1,12 +1,12 @@
 <script setup>
-import ServicePanel from '@/Components/ServicePanel.vue'
+import ImagePanel from '@/Components/ImagePanel.vue'
 </script>
 <template>
 
   <div>
     <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">Services</h2>
 
-    <ServicePanel
+    <ImagePanel
       class="mt-5 md:mt-12"
       :reverse="true"
       imgFile="evelyn-front.jpg"
@@ -18,9 +18,9 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       Artisanal Restoration specializes in the service of historic homes, handling everything from routine maintenance to full-scale renovations.
       Decades' experience working on houses from the 18th century onwards let us recognize and adapt to each home's history eccentrities and history on a case by case basis.
       Our work will always be faithful to the time period and unique character of your home.
-    </ServicePanel>
+    </ImagePanel>
 
-    <ServicePanel
+    <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="false"
       imgFile="furniture-restoration.jpg"
@@ -31,9 +31,9 @@ import ServicePanel from '@/Components/ServicePanel.vue'
     >
       We will happily refresh worn finishes, restore scratched and chipped surfaces, and repair structural damage in antique furniture and cabinetry.
       Master carpenter Randall Basti of Artisanal Restoration has the technical skill to handle the complex joinery and intricate ornamentation found in historic pieces, along with the eye for detail to ensure the repair is done right—preserving the unique personality of the original piece.
-    </ServicePanel>
+    </ImagePanel>
 
-    <ServicePanel
+    <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="true"
       imgFile="furniture-painting-table.jpg"
@@ -44,9 +44,9 @@ import ServicePanel from '@/Components/ServicePanel.vue'
     >
       We build custom furniture and cabinetry to almost any size and specification and will work with you through the design process from start to finish to ensure the piece exactly fits, both functionally and aesthetically, the special role it will fulfill in your home.
       Tell us about your dream piece, and we'll design and create it to match the dimensions, aesthetics, and unique character of your home.
-    </ServicePanel>
+    </ImagePanel>
 
-    <ServicePanel
+    <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="false"
       imgFile="deck-overhead.jpg"
@@ -59,9 +59,9 @@ import ServicePanel from '@/Components/ServicePanel.vue'
       We can repair rot damage, structural issues, and worn finishes, while our new construction includes the full package of foundation, structural framing, decking surface, fences, and stairs.
       Both repairs and new construction made to last, using rot-resistant decking material and finishes, corrosion-resistant hardware, and structural framing built to minimize damage from ground and water contact. 
 
-    </ServicePanel>
+    </ImagePanel>
 
-    <ServicePanel
+    <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="true"
       imgFile="evelyn-stairs-fineal.jpg"
@@ -80,7 +80,7 @@ import ServicePanel from '@/Components/ServicePanel.vue'
         <li>Regular service and maintenance of historic homes</li>
       </ul>
 
-    </ServicePanel>
+    </ImagePanel>
 
   </div>
 
