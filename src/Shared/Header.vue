@@ -23,7 +23,7 @@ const mobileMenuShowing = ref(false)
             <p class="-mt-1.5">Restoration</p>
           </div>
         </HeaderLink>
-        <HeaderLink route="/">Portfolio</HeaderLink>
+        <HeaderLink route="/portfolio">Portfolio</HeaderLink>
         <HeaderLink route="/testimonials">Testimonials</HeaderLink>
         <HeaderLink route="/contact">Contact</HeaderLink>
       </div>
@@ -47,7 +47,7 @@ const mobileMenuShowing = ref(false)
             <HeaderLink @click="mobileMenuShowing = false" class="border-b" route="/">Home</HeaderLink>
             <HeaderLink @click="mobileMenuShowing = false" class="border-b" route="/about">About</HeaderLink>
             <HeaderLink @click="mobileMenuShowing = false" class="border-b" route="/services">Services</HeaderLink>
-            <HeaderLink @click="mobileMenuShowing = false" class="border-b" route="/">Portfolio</HeaderLink>
+            <HeaderLink @click="mobileMenuShowing = false" class="border-b" route="/portfolio">Portfolio</HeaderLink>
             <HeaderLink @click="mobileMenuShowing = false" class="border-b" route="/testimonials">Testimonials</HeaderLink>
             <HeaderLink @click="mobileMenuShowing = false" class="border-b" route="/contact">Contact</HeaderLink>
           </div>
