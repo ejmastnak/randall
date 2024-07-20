@@ -45,12 +45,16 @@ async function submitForm() {
 </script>
 
 <template>
-  <div class="max-w-5xl py-16">
+  <div class="max-w-5xl py-12">
     <h1 class="text-5xl font-['Latin_Modern_Roman']">Contact</h1>
 
     <p class="mt-8 text-gray-700 max-w-xl">
       Schedule a consultation or ask questions using the contact form below.
       We need either your email or phone so we can respond to you; leave whichever you prefer.
+    </p>
+
+    <p class="mt-2 text-lg text-gray-700 max-w-xl">
+      You can also contact us directly by phone or email—<a href="#contact-directly" class="text-blue-500 hover:underline hover:text-blue-500">see below</a>.
     </p>
 
     <div class="mt-6">
@@ -130,13 +134,13 @@ async function submitForm() {
     </div>
 
     <div class="mt-10">
-      <p>
-        You can also contact Randall Basti of Artisanal Restoration directly:
-      </p>
+      <h2 class="text-3xl font-['Latin_Modern_Roman']" id="contact-directly">Contact us directly</h2>
+
+      <p class="mt-4"> You can also contact Randall Basti of Artisanal Restoration directly:</p>
 
       <ul class="mt-4 ml-5 list-disc">
-        <li>By phone at <a href="tel:+19087872526">(908) 787 2526</a> </li>
-        <li>By email at <a href="mailto:rbasti@comcast.net">rbasti@comcast.net</a></li>
+        <li>By phone at <a class="hover:text-blue-600" href="tel:+19087872526">(908) 787 2526</a> </li>
+        <li>By email at <a class="hover:text-blue-600" href="mailto:rbasti@comcast.net">rbasti@comcast.net</a></li>
       </ul>
     </div>
 
