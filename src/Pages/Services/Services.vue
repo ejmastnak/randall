@@ -137,7 +137,7 @@ import ServiceListItem from './Partials/ServiceListItem.vue'
       </p>
 
       <ul class="mt-5 space-y-3">
-        <ServiceListItem route="/services/home-renovation">Renovation and restoration of historic homes</ServiceListItem>
+        <ServiceListItem route="/services/home-renovation">Restoration and renovation of historic homes</ServiceListItem>
         <ServiceListItem route="#">Restoration of antique furniture</ServiceListItem>
         <ServiceListItem route="#">Custom-built furniture and cabinetry</ServiceListItem>
         <ServiceListItem route="#">Bespoke home additions</ServiceListItem>

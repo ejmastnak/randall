@@ -4,8 +4,8 @@ const props = defineProps({
 })
 </script>
 <template>
-  <li class="underline !text-xl">
-    <RouterLink :to="route" class="hover:text-blue-600">
+  <li>
+    <RouterLink :to="route" class="underline hover:text-blue-600 !text-xl">
       <slot />
     </RouterLink>
   </li>

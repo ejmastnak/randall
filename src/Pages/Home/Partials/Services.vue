@@ -12,12 +12,12 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       imgFile="evelyn-front.jpg"
       imgAlt="A 1910 home in Princeton, NJ served by Artisanal Restoration"
       imgClasses="h-64 md:h-80 object-top w-full max-w-lg md:max-w-lg object-top md:object-center"
-      titleText="Renovation and restoration of historic homes"
+      titleText="Restoration and renovation of historic homes"
       linkText="Read more"
       linkRoute="/services/home-renovation"
     >
       Artisanal Restoration specializes in the service of historic homes, handling everything from routine maintenance to full-scale renovations.
-      Decades' experience working on houses from the 18th century onwards let us recognize and adapt to each home's quirks and history on a case by case basis.
+      Decades' experience working on houses from the 18th century onwards let us recognize and adapt to each home's quirks and history on a case-by-case basis.
       Our work will always be faithful to the time period and unique character of your home.
     </ImagePanel>
 
