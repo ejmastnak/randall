@@ -30,7 +30,7 @@ const mobileMenuShowing = ref(false)
 
       <!-- Mobile -->
       <div class="relative flex md:hidden justify-between pt-3 pb-5 px-4">
-        <HeaderLink route="/" class="ml-1 xs:ml-2 font-['Latin_Modern_Roman'] text-3xl xs:text-4xl xs:tracking-wide hover:text-blue-800">
+        <HeaderLink route="/" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] text-3xl xxs:text-4xl xs:tracking-wide hover:text-blue-800">
           Artisanal Restoration
         </HeaderLink>
         <button type="button" class="ml-2" >
