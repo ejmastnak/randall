@@ -9,15 +9,14 @@ import Testimonials from '@/Pages/Testimonials/Testimonials.vue'
 import Contact from '@/Pages/Contact/Contact.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/about', component: About },
-  { path: '/services', component: Services },
-  { path: '/services/home-renovation', component: HomeRenovation },
-  { path: '/portfolio', component: Portfolio },
-  { path: '/portfolio/flood-renovation', component: EvelynRenovation },
-  { path: '/contact', component: Contact },
-  { path: '/testimonials', component: Testimonials },
-  { path: '/contact', component: Contact },
+  { path: '/', component: Home, meta: { title: "Home | Artisanal Restoration" } },
+  { path: '/about', component: About, meta: { title: "About | Artisanal Restoration" } },
+  { path: '/services', component: Services, meta: { title: "Services | Artisanal Restoration" } },
+  { path: '/services/home-renovation', component: HomeRenovation, meta: { title: "Home Renovation | Artisanal Restoration" } },
+  { path: '/portfolio', component: Portfolio, meta: { title: "Portfolio | Artisanal Restoration" } },
+  { path: '/portfolio/flood-renovation', component: EvelynRenovation, meta: { title: "Flood Restoration | Artisanal Restoration" } },
+  { path: '/contact', component: Contact, meta: { title: "Contact | Artisanal Restoration" } },
+  { path: '/testimonials', component: Testimonials, meta: { title: "Testimonials | Artisanal Restoration" } },
 ]
 
 const router = createRouter({
@@ -27,5 +26,11 @@ const router = createRouter({
   },
   routes,
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = 
+    to.meta.title || "Artisanal Restoration";
+  next();
+});
 
 export default router
