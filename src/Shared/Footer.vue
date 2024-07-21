@@ -27,7 +27,7 @@
           <p class="text-5xl font-['Latin_Modern_Roman']">Artisanal Restoration</p>
           <p class="mt-0.5 ml-0.5 italic">Restoration, renovation, and maintenance of historic homes in the Central New Jersey area</p>
           <div class="mt-8">
-            <p> Artisanal Restoration & Design, LLC </p>
+            <p>Artisanal Restoration & Design, LLC</p>
             <p>160 Old Croton Road</p>
             <p>Flemington, NJ 08822</p>
           </div>
