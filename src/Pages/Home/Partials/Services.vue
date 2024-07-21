@@ -14,9 +14,10 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       imgClasses="h-64 md:h-80 object-top w-full max-w-lg md:max-w-lg object-top md:object-center"
       titleText="Renovation and restoration of historic homes"
       linkText="Read more"
+      linkRoute="/services/home-renovation"
     >
       Artisanal Restoration specializes in the service of historic homes, handling everything from routine maintenance to full-scale renovations.
-      Decades' experience working on houses from the 18th century onwards let us recognize and adapt to each home's history eccentrities and history on a case by case basis.
+      Decades' experience working on houses from the 18th century onwards let us recognize and adapt to each home's quirks and history on a case by case basis.
       Our work will always be faithful to the time period and unique character of your home.
     </ImagePanel>
 
@@ -29,7 +30,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       titleText="Restoration of antique pieces"
       linkText="Read more"
     >
-      We will happily refresh worn finishes, restore scratched and chipped surfaces, and repair structural damage in antique furniture and cabinetry.
+      We refresh worn finishes, restore scratched and chipped surfaces, and repair structural damage in antique furniture and cabinetry.
       Master carpenter Randall Basti of Artisanal Restoration has the technical skill to handle the complex joinery and intricate ornamentation found in historic pieces, along with the eye for detail to ensure the repair is done right—preserving the unique personality of the original piece.
     </ImagePanel>
 
@@ -56,8 +57,8 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       linkText="Read more"
     >
       We offer both restoration and new construction of decks and porches.
-      We can repair rot damage, structural issues, and worn finishes, while our new construction includes the full package of foundation, structural framing, decking surface, fences, and stairs.
-      Both repairs and new construction made to last, using rot-resistant decking material and finishes, corrosion-resistant hardware, and structural framing built to minimize damage from ground and water contact. 
+      We can repair rot damage, structural issues, and worn finishes, replace rotted structural framing, install decking surface, and build fences, rails, and stairs.
+      Both repairs and new construction are made to last, using rot-resistant decking material and finishes, corrosion-resistant hardware, and structural framing built to minimize damage from ground and water contact.
 
     </ImagePanel>
 

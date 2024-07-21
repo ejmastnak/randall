@@ -5,6 +5,10 @@ const props = defineProps({
   imgAlt: String,
   titleText: String,
   linkText: String,
+  linkRoute: {
+    type: String,
+    default: "#",
+  },
   imgClasses: {
     type: String,
     default: "",
@@ -16,7 +20,7 @@ const props = defineProps({
   <div class="md:flex mt-10 px-4" :class="reverse ? 'flex-row-reverse' : ''">
 
     <!-- Service title (mobile only) -->
-    <p class="md:hidden text-center mb-5 text-3xl font-['Latin_Modern_Roman']">
+    <p v-if="titleText" class="md:hidden text-center mb-5 text-3xl font-['Latin_Modern_Roman']">
       {{titleText}}
     </p>
 
@@ -32,16 +36,18 @@ const props = defineProps({
 
     <div class="px-4 md:px-8 lg:px-14 mt-4">
       <!-- Service title (desktop only) -->
-      <p class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman']">
+      <p v-if="titleText" class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman']">
         {{titleText}}
       </p>
       <!-- Paragraph description -->
       <p class="text-lg lg:text-xl text-gray-600 leading-relaxed">
         <slot/>
       </p>
-      <a href="#" class="mt-4 md:mt-5 lg:mt-8 block w-fit mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 ">
+
+      <RouterLink :to="linkRoute" class="mt-4 md:mt-5 lg:mt-8 block w-fit mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 ">
         {{linkText}}
-      </a>
+      </RouterLink>
+
     </div>
   </div>
 </template>

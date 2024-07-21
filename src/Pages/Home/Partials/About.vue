@@ -25,7 +25,6 @@
           More about us
         </RouterLink>
 
-
       </div>
     </div>
   </div>
