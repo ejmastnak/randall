@@ -39,6 +39,10 @@ import ServiceListItem from './Partials/ServiceListItem.vue'
           <li>Regular service and maintenance of historic homes</li>
         </ul>
 
+        <p class="mt-5">
+          In any given job, we can combine and integrate all of these services into a cohesive whole matching your home and preferences.
+        </p>
+
         <!-- Desktop contact button -->
         <RouterLink to="/contact" class="hidden md:block w-fit block mt-8 mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 ">
           Contact us with an inquiry
@@ -133,7 +137,7 @@ import ServiceListItem from './Partials/ServiceListItem.vue'
       </p>
 
       <ul class="mt-5 space-y-3">
-        <ServiceListItem route="#">Renovation and restoration of historic homes</ServiceListItem>
+        <ServiceListItem route="/services/home-renovation">Renovation and restoration of historic homes</ServiceListItem>
         <ServiceListItem route="#">Restoration of antique furniture</ServiceListItem>
         <ServiceListItem route="#">Custom-built furniture and cabinetry</ServiceListItem>
         <ServiceListItem route="#">Bespoke home additions</ServiceListItem>
