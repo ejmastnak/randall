@@ -138,15 +138,15 @@ import ServiceListItem from './Partials/ServiceListItem.vue'
 
       <ul class="mt-5 space-y-3">
         <ServiceListItem route="/services/home-renovation">Restoration and renovation of historic homes</ServiceListItem>
-        <ServiceListItem route="#">Restoration of antique furniture</ServiceListItem>
-        <ServiceListItem route="#">Custom-built furniture and cabinetry</ServiceListItem>
-        <ServiceListItem route="#">Bespoke home additions</ServiceListItem>
-        <ServiceListItem route="#">Trim and finish carpentry</ServiceListItem>
-        <ServiceListItem route="#">Decks and porches</ServiceListItem>
-        <ServiceListItem route="#">Stairs</ServiceListItem>
-        <ServiceListItem route="#">Windows and doors</ServiceListItem>
-        <ServiceListItem route="#">Rot restoration</ServiceListItem>
-        <ServiceListItem route="#">Service and maintenance of historic homes</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Restoration of antique furniture</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Custom-built furniture and cabinetry</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Bespoke home additions</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Trim and finish carpentry</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Decks and porches</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Stairs</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Windows and doors</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Rot restoration</ServiceListItem>
+        <ServiceListItem :disabled="true" route="#">Service and maintenance of historic homes</ServiceListItem>
       </ul>
 
     </div>

@@ -44,7 +44,17 @@ const props = defineProps({
         <slot/>
       </p>
 
-      <RouterLink :to="linkRoute" class="mt-4 md:mt-5 lg:mt-8 block w-fit mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 ">
+      <RouterLink 
+        :to="linkRoute"
+        class="mt-4 md:mt-5 lg:mt-8 block w-fit mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 " 
+        :class='{
+        "border-gray-100": linkRoute === "#",
+        "hover:border-gray-100": linkRoute === "#",
+        "hover:bg-transparent": linkRoute === "#",
+        "text-gray-400": linkRoute === "#",
+        "hover:text-gray-400": linkRoute === "#"
+        }'
+      >
         {{linkText}}
       </RouterLink>
 
