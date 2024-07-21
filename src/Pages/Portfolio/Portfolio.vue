@@ -15,7 +15,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
 
       <ImagePanel
         :reverse="true"
-        imgFile="portfolio/evelyn/complete.jpg"
+        imgSrc="/src/assets/img/portfolio/evelyn/complete.jpg"
         imgAlt="Hallway and kitchen of a 1910 home in Princeton, NJ, fully restored after flood damage"
         imgClasses="w-full max-w-lg object-top md:object-center"
         titleText="Repairing catastrophic flood damage in a historic home."
@@ -30,7 +30,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       <ImagePanel
         class="mt-8 md:mt-16"
         :reverse="false"
-        imgFile="portfolio/anderson/complete.jpg"
+        imgSrc="/src/assets/img/portfolio/anderson/complete.jpg"
         imgAlt="Renovated facade of a large two-story home after extensive rot repair on exterior trim and window frames."
         imgClasses="h-64 sm:h-72 md:h-80 object-top w-full max-w-lg md:max-w-lg object-right"
         titleText="Extensive exterior rot repair in a multistory home."
@@ -45,7 +45,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       <ImagePanel
         class="mt-8 md:mt-16"
         :reverse="true"
-        imgFile="portfolio/evelyn-stairs/finial.jpg"
+        imgSrc="/src/assets/img/portfolio/evelyn-stairs/finial.jpg"
         imgAlt="A detail image of the finish carpentry on a fineal custom-built for a staircase in a Princeton, NJ home"
         imgClasses="h-64 sm:h-72 md:h-80 object-top w-full max-w-lg md:max-w-lg object-bottom"
         titleText="Front porch stairs get a makeover."
@@ -58,7 +58,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       <ImagePanel
         class="mt-8 md:mt-16"
         :reverse="false"
-        imgFile="portfolio/evelyn-floor-weave/complete.jpg"
+        imgSrc="/src/assets/img/portfolio/evelyn-floor-weave/complete.jpg"
         imgAlt="Renovated facade of a large two-story home after extensive rot repair on exterior trim and window frames."
         imgClasses="h-64 sm:h-72 md:h-80 object-top w-full max-w-lg md:max-w-lg object-right"
         titleText="Matching 70-year-old hardwood flooring to a fraction of an inch."
@@ -75,7 +75,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       <ImagePanel
         class="mt-8 md:mt-16"
         :reverse="true"
-        imgFile="portfolio/sunroom/complete.jpg"
+        imgSrc="/src/assets/img/portfolio/sunroom/complete.jpg"
         imgAlt="A detail image of the finish carpentry on a fineal custom-built for a staircase in a Princeton, NJ home"
         imgClasses="h-80 object-top w-full max-w-lg md:max-w-lg object-top md:object-top"
         titleText="A custom sunroom."
@@ -87,7 +87,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       <ImagePanel
         class="mt-8 md:mt-16"
         :reverse="false"
-        imgFile="portfolio/deck-two-story/complete.jpg"
+        imgSrc="/src/assets/img/portfolio/deck-two-story/complete.jpg"
         imgAlt="A second-story view of a deck restored by Artisanal Restoration"
         imgClasses="h-56 md:h-80 object-left-bottom"
         titleText="A multistory deck restoration."

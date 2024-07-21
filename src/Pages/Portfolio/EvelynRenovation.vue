@@ -8,7 +8,7 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
     <SimpleImagePanel
       class="mt-12"
       :reverse="true"
-      imgFile="portfolio/evelyn/before.jpg"
+      imgSrc="/src/assets/img/portfolio/evelyn/before.jpg"
       imgAlt="The first floor when starting the job."
       imgCaption="The first floor when starting the job."
       imgClasses="h-60 w-full max-w-sm mx-auto md:h-80 md:max-w-md"
@@ -27,7 +27,7 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
     <SimpleImagePanel
       class="mt-8"
       :reverse="true"
-      imgFile="portfolio/evelyn/framing-floor.jpg"
+      imgSrc="/src/assets/img/portfolio/evelyn/framing-floor.jpg"
       imgAlt="In the process of reframing the first-floor bathroom with stronger lumber."
       imgCaption="In the process of reframing the first-floor bathroom with stronger lumber."
       imgClasses="h-64 w-full max-w-md mx-auto md:h-80 object-top"
@@ -47,7 +47,7 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
     <SimpleImagePanel
       class="mt-10"
       :reverse="false"
-      imgFile="portfolio/evelyn/subfloor.jpg"
+      imgSrc="/src/assets/img/portfolio/evelyn/subfloor.jpg"
       imgAlt="The first floor reframed, with new subfloor installed."
       imgCaption="The first floor reframed, with new subfloor installed."
       imgClasses="h-72 w-full max-w-md mx-auto md:h-80 md:max-w-lg"
@@ -68,7 +68,7 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
     <SimpleImagePanel
       class="mt-8"
       :reverse="true"
-      imgFile="portfolio/evelyn/floor.jpg"
+      imgSrc="/src/assets/img/portfolio/evelyn/floor.jpg"
       imgAlt="The first floor hallway coming together after installtion of drywall and finish flooring."
       imgCaption="The first floor hallway coming together after installtion of drywall and finish flooring."
       imgClasses="h-72 w-full max-w-md mx-auto md:h-80 md:max-w-lg"
@@ -83,7 +83,7 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
     <SimpleImagePanel
       class="mt-8"
       :reverse="false"
-      imgFile="portfolio/evelyn/complete.jpg"
+      imgSrc="/src/assets/img/portfolio/evelyn/complete.jpg"
       imgAlt="Foo"
       imgCaption="Restored finish carpentry—note the detailed door headers, plinth blocks, and baseboards, all custom-milled and assembled by hand."
       imgClasses="h-72 w-full max-w-md mx-auto md:h-96 md:max-w-lg"

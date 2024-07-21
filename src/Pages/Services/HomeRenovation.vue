@@ -17,7 +17,7 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
     <SimpleImagePanel
       class="mt-10"
       :reverse="true"
-      imgFile="evelyn-front.jpg"
+      imgSrc="/src/assets/img/evelyn-front.jpg"
       imgAlt="A 1910 home in Princeton, NJ served by Artisanal Restoration"
       imgClasses="h-60 w-full max-w-sm mx-auto md:h-80 md:max-w-md"
     >

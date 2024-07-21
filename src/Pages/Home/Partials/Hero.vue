@@ -1,7 +1,7 @@
 <template>
 
   <div
-    class="flex flex-col bg-[url('@/assets/img/hero.jpg')] bg-cover bg-no-repeat
+    class="flex flex-col bg-[url('/src/assets/img/hero.jpg')] bg-cover bg-no-repeat
     border border-white"
     :class='{
     "h-[22rem]": true, "bg-[center_top_-2rem]": true,

@@ -1,7 +1,7 @@
 <script setup>
 const props = defineProps({
   reverse: Boolean,
-  imgFile: String,
+  imgSrc: String,
   imgAlt: String,
   titleText: String,
   linkText: String,
@@ -27,7 +27,7 @@ const props = defineProps({
     <!-- Service image -->
     <div class="md:w-96 shrink-0 grid place-items-center">
           <img 
-        :src="'/src/assets/img/' + imgFile"
+        :src="imgSrc"
         :alt="imgAlt"
         class="mx-auto my-auto object-cover rounded-md"
         :class="imgClasses"

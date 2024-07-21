@@ -1,7 +1,7 @@
 <script setup>
 const props = defineProps({
   reverse: Boolean,
-  imgFile: String,
+  imgSrc: String,
   imgAlt: String,
   imgCaption: String,
   imgClasses: {
@@ -21,7 +21,7 @@ const props = defineProps({
   >
     <div class="mb-4 md:mb-0 shrink-0">
       <img 
-      :src="'/src/assets/img/' + imgFile"
+      :src="imgSrc"
       :alt="imgAlt"
       class="mx-auto my-auto object-cover rounded-md"
       :class="imgClasses"
