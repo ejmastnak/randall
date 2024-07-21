@@ -1,5 +1,12 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
+
+import evelynFrontImg from '@/assets/img/evelyn-front.jpg'
+import furnitureRestorationImg from '@/assets/img/furniture-restoration.jpg'
+import furniturePaintingTableImg from '@/assets/img/furniture-painting-table.jpg'
+import deckOverheadImg from '@/assets/img/deck-overhead.jpg'
+import evelynStairsFinealImg from '@/assets/img/evelyn-stairs-fineal.jpg'
+
 </script>
 <template>
 
@@ -9,7 +16,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <ImagePanel
       class="mt-5 md:mt-12"
       :reverse="true"
-      imgSrc="/src/assets/img/evelyn-front.jpg"
+      :imgSrc="evelynFrontImg"
       imgAlt="A 1910 home in Princeton, NJ served by Artisanal Restoration"
       imgClasses="h-64 md:h-80 object-top w-full max-w-lg md:max-w-lg object-top md:object-center"
       titleText="Restoration and renovation of historic homes"
@@ -24,7 +31,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="false"
-      imgSrc="/src/assets/img/furniture-restoration.jpg"
+      :imgSrc="furnitureRestorationImg"
       imgAlt="An antique table being restored in the Artisanal Restoration workshop"
       imgClasses="h-64 sm:h-72 md:h-80 object-top w-full max-w-lg md:max-w-lg object-right"
       titleText="Restoration of antique pieces"
@@ -37,7 +44,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="true"
-      imgSrc="/src/assets/img/furniture-painting-table.jpg"
+      :imgSrc="furniturePaintingTableImg"
       imgAlt="A custom table built to match the art and wall color in a parlor"
       imgClasses="w-56 md:h-96"
       titleText="Custom-built furniture and cabinets"
@@ -50,7 +57,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="false"
-      imgSrc="/src/assets/img/deck-overhead.jpg"
+      :imgSrc="deckOverheadImg"
       imgAlt="A second-story view of a deck restored by Artisanal Restoration"
       imgClasses="h-56 md:h-80 object-left-bottom"
       titleText="Decks and porches"
@@ -65,7 +72,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="true"
-      imgSrc="/src/assets/img/evelyn-stairs-fineal.jpg"
+      :imgSrc="evelynStairsFinealImg"
       imgAlt="A detail image of the finish carpentry on a fineal custom-built for a staircase in a Princeton, NJ home"
       imgClasses="w-full max-w-md object-center"
       titleText="More"
