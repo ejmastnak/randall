@@ -3,7 +3,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
 import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg'
 import andersonCompleteImg from '@/assets/img/portfolio/anderson/complete.jpg'
 import evelynStairsFinealImg from '@/assets/img/portfolio/evelyn-stairs/finial.jpg'
-import evelynFloorWeaveImg from '@/assets/img/portfolio/evelyn-floor-weave/complete.jpg'
+import evelynFloorWeaveImg from '@/assets/img/portfolio/floor-weave/complete.jpg'
 import sunroomCompleteImg from '@/assets/img/portfolio/sunroom/complete.jpg'
 import deckTwoStoryCompleteImg from '@/assets/img/portfolio/deck-two-story/complete.jpg'
 </script>
@@ -69,6 +69,7 @@ import deckTwoStoryCompleteImg from '@/assets/img/portfolio/deck-two-story/compl
         imgClasses="h-64 sm:h-72 md:h-80 object-top w-full max-w-lg md:max-w-lg object-right"
         titleText="Matching 70-year-old hardwood flooring to a fraction of an inch."
         linkText="Read more"
+        linkRoute="/portfolio/floor-weave"
       >
         <p class="mt-2">Flood damage forced the homeowner to replace a section of a 1950s tongue-and-groove oak floor.
           Artisanal Restoration immediately noticed an important detail: 70 years ago, floorboards were made with slightly larger tongues and grooves than the standard 3/4" boards available today.

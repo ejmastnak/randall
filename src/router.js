@@ -5,6 +5,7 @@ import Services from '@/Pages/Services/Services.vue'
 import HomeRenovation from '@/Pages/Services/HomeRenovation.vue'
 import Portfolio from '@/Pages/Portfolio/Portfolio.vue'
 import EvelynRenovation from '@/Pages/Portfolio/EvelynRenovation.vue'
+import EvelynFloorWeave from '@/Pages/Portfolio/EvelynFloorWeave.vue'
 import Testimonials from '@/Pages/Testimonials/Testimonials.vue'
 import Contact from '@/Pages/Contact/Contact.vue'
 
@@ -15,6 +16,7 @@ const routes = [
   { path: '/services/home-renovation', component: HomeRenovation, meta: { title: "Home Renovation | Artisanal Restoration" } },
   { path: '/portfolio', component: Portfolio, meta: { title: "Portfolio | Artisanal Restoration" } },
   { path: '/portfolio/flood-renovation', component: EvelynRenovation, meta: { title: "Flood Restoration | Artisanal Restoration" } },
+  { path: '/portfolio/floor-weave', component: EvelynFloorWeave, meta: { title: "Custom Floor Weave | Artisanal Restoration" } },
   { path: '/contact', component: Contact, meta: { title: "Contact | Artisanal Restoration" } },
   { path: '/testimonials', component: Testimonials, meta: { title: "Testimonials | Artisanal Restoration" } },
 ]
