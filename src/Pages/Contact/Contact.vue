@@ -48,20 +48,34 @@ async function submitForm() {
   <div class="max-w-5xl py-12">
     <h1 class="text-5xl font-['Latin_Modern_Roman']">Contact</h1>
 
-    <p class="mt-8 text-gray-700 max-w-2xl">
-      Schedule a consultation or ask questions using the contact form below.
-      We need either your email or phone so we can respond to you; leave whichever you prefer.
-    </p>
+    <div class="mt-8">
+      <p class="mt-4"> You can contact Randall Basti of Artisanal Restoration directly:</p>
 
-    <p class="mt-2 text-lg text-gray-700 max-w-xl">
-      You can also contact us directly by phone or email—<a href="#contact-directly" class="text-blue-500 hover:underline hover:text-blue-500">see below</a>.
-    </p>
+      <ul class="mt-4 ml-5 list-disc">
+        <li>By phone at <a class="hover:text-blue-600" href="tel:+19087872526">(908) 787 2526</a> </li>
+        <li>By email at <a class="hover:text-blue-600" href="mailto:rbasti@comcast.net">rbasti@comcast.net</a></li>
+      </ul>
+    </div>
 
-    <div class="mt-6">
+    <!-- <p class="mt-8 text-gray-700 max-w-2xl"> -->
+    <!--   Schedule a consultation or ask questions using the contact form below. -->
+    <!--   We need either your email or phone so we can respond to you; leave whichever you prefer. -->
+    <!-- </p> -->
 
-      <form @submit.prevent="submitForm">
+    <!-- <p class="mt-2 text-lg text-gray-700 max-w-xl"> -->
+    <!--   You can also contact us directly by phone or email—<a href="#contact-directly" class="text-blue-500 hover:underline hover:text-blue-500">see below</a>. -->
+    <!-- </p> -->
 
-        <div class="mt-2 w-full max-w-xl">
+    <div class="mt-8 relative rounded-xl p-5 -m-5 overflow-hidden">
+
+      <!-- Overlay -->
+      <div class="bg-gray-50/70 absolute inset-0"></div>
+
+      <h2 class="text-3xl font-['Latin_Modern_Roman']" id="contact-directly">Contact form (in development)</h2>
+
+      <form class="mt-4" @submit.prevent="submitForm">
+
+        <div class="w-full max-w-xl">
           <InputLabel for="name" value="Name" />
           <TextInput
           id="name"
@@ -113,7 +127,7 @@ async function submitForm() {
         />
         </div>
 
-        <PrimaryButton class="mt-5" type="submit">Send Message</PrimaryButton>
+        <PrimaryButton :disabled="true" class="mt-5 !cursor-not-allowed" type="submit">Send Message</PrimaryButton>
       </form>
 
       <div class="mt-6 max-w-2xl">
@@ -139,16 +153,14 @@ async function submitForm() {
 
     </div>
 
-    <div class="mt-10">
-      <h2 class="text-3xl font-['Latin_Modern_Roman']" id="contact-directly">Contact us directly</h2>
-
-      <p class="mt-4"> You can also contact Randall Basti of Artisanal Restoration directly:</p>
-
-      <ul class="mt-4 ml-5 list-disc">
-        <li>By phone at <a class="hover:text-blue-600" href="tel:+19087872526">(908) 787 2526</a> </li>
-        <li>By email at <a class="hover:text-blue-600" href="mailto:rbasti@comcast.net">rbasti@comcast.net</a></li>
-      </ul>
-    </div>
+    <!-- <div class="mt-10"> -->
+    <!--   <h2 class="text-3xl font-['Latin_Modern_Roman']" id="contact-directly">Contact us directly</h2> -->
+    <!--   <p class="mt-4"> You can also contact Randall Basti of Artisanal Restoration directly:</p> -->
+    <!--   <ul class="mt-4 ml-5 list-disc"> -->
+    <!--     <li>By phone at <a class="hover:text-blue-600" href="tel:+19087872526">(908) 787 2526</a> </li> -->
+    <!--     <li>By email at <a class="hover:text-blue-600" href="mailto:rbasti@comcast.net">rbasti@comcast.net</a></li> -->
+    <!--   </ul> -->
+    <!-- </div> -->
 
   </div>
 </template>
