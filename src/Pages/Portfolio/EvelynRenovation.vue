@@ -21,7 +21,7 @@ import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg'
     >
         <p class="max-w-xl">
           <strong class="font-bold">Background:</strong>
-          An upstairs bathroom fixture cracked while the homeowners travelling out of the country, leaving water flowing for days in the second floor bathroom, through the first floor ceiling, and across an entire wing of the first floor.
+          An upstairs bathroom fixture cracked while the homeowners were travelling out of the country, leaving water flowing for days in the second floor bathroom, through the first floor ceiling, and across an entire wing of the first floor.
           Besides direct water damage to the hardwood floors, doors, and furniture, the hot, humid summer weather led to mold growth over the entire interior surface of flooded area, forcing the homeowner to tear out the interior walls, ceiling, and floor, leaving only bare studs and the exterior masonry wall.
         </p>
 
