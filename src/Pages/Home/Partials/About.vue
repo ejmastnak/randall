@@ -1,3 +1,7 @@
+<script setup>
+import placeholderImage from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
+</script>
+
 <template>
 
   <div>
@@ -6,7 +10,7 @@
     <div class="md:flex mt-4 md:mt-10 px-6  text-gray-700">
       <!-- Image -->
       <img 
-      src="/src/assets/img/placeholder.png"
+      :src="placeholderImage"
       alt="Artisanal Restoration logo"
       class="h-56 w-60 mx-auto md:w-96 md:h-96 object-cover rounded-md"
     />

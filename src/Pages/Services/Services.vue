@@ -3,7 +3,10 @@ import { ChevronDownIcon } from '@heroicons/vue/24/outline'
 import { Disclosure, DisclosureButton, DisclosurePanel, } from '@headlessui/vue'
 import PrimaryButton from '@/Components/PrimaryButton.vue'
 import ServiceListItem from './Partials/ServiceListItem.vue'
+
+import handrailProfileImage from '@/assets/img/handrail-profile.jpg?w=500'
 </script>
+
 <template>
 
   <div class="max-w-5xl py-12">
@@ -20,7 +23,7 @@ import ServiceListItem from './Partials/ServiceListItem.vue'
       <!-- Service image -->
       <div class="hidden sm:block w-72 md:w-96 shrink-0 grid place-items-start sm:ml-5">
         <img 
-        src="/src/assets/img/handrail-profile.jpg"
+        :src="handrailProfileImage"
         alt="Detail image of a custom profile carved into a staircase handrail"
         class="mx-auto object-cover rounded-md"
       />
@@ -55,7 +58,7 @@ import ServiceListItem from './Partials/ServiceListItem.vue'
     <!-- Mobile image -->
     <div class="sm:hidden mt-6">
       <img 
-      src="/src/assets/img/handrail-profile.jpg"
+      :src="handrailProfileImage"
       alt="Detail image of a custom profile carved into a staircase handrail"
       class="h-60 w-full mx-auto object-cover rounded-md"
     />

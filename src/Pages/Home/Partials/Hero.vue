@@ -1,8 +1,12 @@
+<script setup>
+import heroImage from '@/assets/img/hero.jpg?w=1000'
+</script>
+
 <template>
 
   <div
-    class="flex flex-col bg-[url('/src/assets/img/hero.jpg')] bg-cover bg-no-repeat
-    border border-white"
+    :style="{ backgroundImage: `url(${heroImage})` }"
+    class="flex flex-col bg-cover bg-no-repeat border border-white"
     :class='{
     "h-[22rem]": true, "bg-[center_top_-2rem]": true,
     "xxxxs:h-[23rem]": true, "xxxxs:bg-[center_top_-1rem]": true,

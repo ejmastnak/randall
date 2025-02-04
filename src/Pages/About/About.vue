@@ -1,3 +1,7 @@
+<script setup>
+// Rotation intentional, presumably to apply stripped metadata rotation
+import handrailProfileImage from '@/assets/img/handrail-profile.jpg?w=500'
+</script>
 <template>
 
   <div class="max-w-5xl py-12">
@@ -21,7 +25,7 @@
     <!-- Mobile image -->
     <div class="sm:hidden mt-6">
       <img 
-      src="/src/assets/img/handrail-profile.jpg"
+      :src="handrailProfileImage"
       alt="Detail image of a custom profile carved into a staircase handrail"
       class="h-60 w-full max-w-md mx-auto object-cover rounded-md"
     />
@@ -35,7 +39,7 @@
         <!-- Service image -->
         <div class="hidden sm:block w-72 md:w-96 shrink-0 grid place-items-start sm:ml-5">
           <img 
-          src="/src/assets/img/handrail-profile.jpg"
+          :src="handrailProfileImage"
           alt="Detail image of a custom profile carved into a staircase handrail"
           class="mx-auto object-cover rounded-md"
         />

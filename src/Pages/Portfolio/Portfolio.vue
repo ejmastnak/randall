@@ -1,11 +1,11 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
-import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg'
-import andersonCompleteImg from '@/assets/img/portfolio/anderson/complete.jpg'
-import evelynStairsFinealImg from '@/assets/img/portfolio/evelyn-stairs/finial.jpg'
-import evelynFloorWeaveImg from '@/assets/img/portfolio/floor-weave/complete.jpg'
-import sunroomCompleteImg from '@/assets/img/portfolio/sunroom/complete.jpg'
-import deckTwoStoryCompleteImg from '@/assets/img/portfolio/deck-two-story/complete.jpg'
+import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=700'
+import andersonCompleteImg from '@/assets/img/portfolio/anderson/complete.jpg?w=700'
+import evelynStairsFinealImg from '@/assets/img/portfolio/evelyn-stairs/finial.jpg?w=600'
+import evelynFloorWeaveImg from '@/assets/img/portfolio/floor-weave/complete.jpg?w=600'
+import sunroomCompleteImg from '@/assets/img/portfolio/sunroom/complete.jpg?w=600'
+import deckTwoStoryCompleteImg from '@/assets/img/portfolio/deck-two-story/complete.jpg?w=600'
 </script>
 <template>
 

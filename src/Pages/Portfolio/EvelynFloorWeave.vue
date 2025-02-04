@@ -1,11 +1,11 @@
 <script setup>
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
-import beforeImg from '@/assets/img/portfolio/floor-weave/before.jpg'
-import framingImg from '@/assets/img/portfolio/floor-weave/framing.jpg'
-import weaveImg from '@/assets/img/portfolio/floor-weave/weave.jpg'
-import sandedImg from '@/assets/img/portfolio/floor-weave/sanded.jpg'
-import completeImg from '@/assets/img/portfolio/floor-weave/complete.jpg'
+import beforeImg from '@/assets/img/portfolio/floor-weave/before.jpg?w=600'
+import framingImg from '@/assets/img/portfolio/floor-weave/framing.jpg?w=600'
+import weaveImg from '@/assets/img/portfolio/floor-weave/weave.jpg?w=600'
+import sandedImg from '@/assets/img/portfolio/floor-weave/sanded.jpg?w=600'
+import completeImg from '@/assets/img/portfolio/floor-weave/complete.jpg?w=600'
 
 </script>
 <template>

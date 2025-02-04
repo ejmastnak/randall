@@ -1,11 +1,11 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
 
-import evelynFrontImg from '@/assets/img/evelyn-front.jpg'
-import furnitureRestorationImg from '@/assets/img/furniture-restoration.jpg'
-import furniturePaintingTableImg from '@/assets/img/furniture-painting-table.jpg'
-import deckOverheadImg from '@/assets/img/deck-overhead.jpg'
-import evelynStairsFinealImg from '@/assets/img/evelyn-stairs-fineal.jpg'
+import evelynFrontImage from '@/assets/img/evelyn-front.jpg?w=600'
+import furnitureRestorationImage from '@/assets/img/furniture-restoration.jpg?w=600'
+import furniturePaintingTableImage from '@/assets/img/furniture-painting-table.jpg?w=600'
+import deckOverheadImg from '@/assets/img/deck-overhead.jpg?w=600'
+import evelynStairsFinealImg from '@/assets/img/evelyn-stairs-fineal.jpg?w=600'
 
 </script>
 <template>
@@ -16,7 +16,7 @@ import evelynStairsFinealImg from '@/assets/img/evelyn-stairs-fineal.jpg'
     <ImagePanel
       class="mt-5 md:mt-12"
       :reverse="true"
-      :imgSrc="evelynFrontImg"
+      :imgSrc="evelynFrontImage"
       imgAlt="A 1910 home in Princeton, NJ served by Artisanal Restoration"
       imgClasses="h-64 md:h-80 object-top w-full max-w-lg md:max-w-lg object-top md:object-center"
       titleText="Restoration and renovation of historic homes"
@@ -31,7 +31,7 @@ import evelynStairsFinealImg from '@/assets/img/evelyn-stairs-fineal.jpg'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="false"
-      :imgSrc="furnitureRestorationImg"
+      :imgSrc="furnitureRestorationImage"
       imgAlt="An antique table being restored in the Artisanal Restoration workshop"
       imgClasses="h-64 sm:h-72 md:h-80 object-top w-full max-w-lg md:max-w-lg object-right"
       titleText="Restoration of antique pieces"
@@ -44,7 +44,7 @@ import evelynStairsFinealImg from '@/assets/img/evelyn-stairs-fineal.jpg'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="true"
-      :imgSrc="furniturePaintingTableImg"
+      :imgSrc="furniturePaintingTableImage"
       imgAlt="A custom table built to match the art and wall color in a parlor"
       imgClasses="w-56 md:h-96"
       titleText="Custom-built furniture and cabinets"

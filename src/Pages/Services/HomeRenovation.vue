@@ -4,7 +4,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel, } from '@headlessui/vue'
 import PrimaryButton from '@/Components/PrimaryButton.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
-import evelynFrontImg from '@/assets/img/evelyn-front.jpg'
+import evelynFrontImage from '@/assets/img/evelyn-front.jpg?w=600'
 </script>
 <template>
 
@@ -19,7 +19,7 @@ import evelynFrontImg from '@/assets/img/evelyn-front.jpg'
     <SimpleImagePanel
       class="mt-10"
       :reverse="true"
-      :imgSrc="evelynFrontImg"
+      :imgSrc="evelynFrontImage"
       imgAlt="A 1910 home in Princeton, NJ served by Artisanal Restoration"
       imgClasses="h-60 w-full max-w-sm mx-auto md:h-80 md:max-w-md"
     >

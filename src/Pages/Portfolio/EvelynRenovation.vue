@@ -1,11 +1,11 @@
 <script setup>
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
-import evelynBeforeImg from '@/assets/img/portfolio/evelyn/before.jpg'
-import evelynFramingFloorImg from '@/assets/img/portfolio/evelyn/framing-floor.jpg'
-import evelynSubfloorImg from '@/assets/img/portfolio/evelyn/subfloor.jpg'
-import evelynFloorImg from '@/assets/img/portfolio/evelyn/floor.jpg'
-import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg'
+import evelynBeforeImg from '@/assets/img/portfolio/evelyn/before.jpg?w=600'
+import evelynFramingFloorImg from '@/assets/img/portfolio/evelyn/framing-floor.jpg?w=600'
+import evelynSubfloorImg from '@/assets/img/portfolio/evelyn/subfloor.jpg?w=600'
+import evelynFloorImg from '@/assets/img/portfolio/evelyn/floor.jpg?w=600'
+import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
 </script>
 <template>
   <div class="max-w-5xl py-12">
