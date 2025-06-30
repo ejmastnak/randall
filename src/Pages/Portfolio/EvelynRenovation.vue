@@ -22,7 +22,7 @@ import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
         <p class="max-w-xl">
           <strong class="font-bold">Background:</strong>
           An upstairs bathroom fixture cracked while the homeowners were travelling out of the country, leaving water flowing for days in the second floor bathroom, through the first floor ceiling, and across an entire wing of the first floor.
-          Besides direct water damage to the hardwood floors, doors, and furniture, the hot, humid summer weather led to mold growth over the entire interior surface of flooded area, forcing the homeowner to tear out the interior walls, ceiling, and floor, leaving only bare studs and the exterior masonry wall.
+          Besides direct water damage to the hardwood floors, doors, and furniture, the hot, humid summer weather led to mold growth over the interior surface of the flooded area, forcing the homeowner to tear out the interior walls, ceiling, and floor, leaving only bare studs and the exterior masonry wall.
         </p>
 
       <p class="mt-5">This page showcases the first floor, focusing on one area for conciseness and to make it easy to follow the progression through the job.</p>
@@ -40,12 +40,12 @@ import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
       captionClasses="max-w-sm"
     >
       <p class="max-w-2xl">
-        The restoration began by identifying and solving two structural issues: first, negligent plumbing work in the 1950s left gaping notches cut into the first floor's main supporting beams, causing both the floor and the walls above it to sag;
-        second, a haphazard conversion of the first-floor bathroom in the 1980s left the floor framed with 2x4s—completely insufficient to support the floor and causing considerable sagging and squeaking.
+        The restoration began by identifying and solving two structural issues: first, plumbing work in the 1950s left gaping notches cut into the first floor's main supporting beams, causing both the floor and the walls above it to sag;
+        second, a conversion of the first-floor bathroom in the 1980s left the floor framed with small 2x4 members, which were insufficient to support the floor and causing considerable sagging and squeaking.
       </p>
 
       <p class="max-w-2xl mt-2">
-        Artisanal Restoration reinforced the 100-year-old basement framing with modern bolts and joist hangers, raised the sagging floor beam with steel posts placed in the basement, removed the weak 2x4 framing, and reframed the floor with stronger 2x6 and 2x8 lumber.
+        Artisanal Restoration reinforced the 100-year-old basement framing with modern bolts and joist hangers, raised the sagging floor beam with steel posts placed in the basement, and replaced the weak 2x4 framing, with stronger 2x6 and 2x8 lumber.
         The result: a solid, reliable structural base on which to continue the rest of the renovation, and the sagging, squeaky first-floor fixed.
       </p>
     </SimpleImagePanel>
@@ -82,7 +82,8 @@ import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
     >
       <p class="max-w-2xl">
         Drywall and hardwood finish flooring was installed by dedicated subcontractors, whom Artisanal Restoration has worked with for many years.
-        Both installations went seamlessly thanks to the careful work on Artisanal Restoration's part in the framing stage to ensure that walls, ceilings, and subfloor were square, plumb, and planar—in fact, both subcontractors mentioned not only how much easier this made their job, but that the extra care taken by Artisanal Restoration was crucial for good-quality installations on the subcontractors' parts.
+        Both installations went seamlessly thanks to the careful work on Artisanal Restoration's part in the framing stage to ensure that walls, ceilings, and subfloor were square, plumb, and planar.
+        Both subcontractors mentioned not only how much easier this made their job, but that the extra care taken by Artisanal Restoration was crucial for good-quality installations on the subcontractors' parts.
       </p>
     </SimpleImagePanel>
 
@@ -97,11 +98,11 @@ import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
     >
       <p class="max-w-2xl">
         Great care was taken during the final stages of the project to restore the elaborate 20th century trim and moldings along the doors, floors, ceilings, and windows.
-        This stage came with a significant hurdle: because of a careless demolition job (from before Artisanal Restoration took over the project), all trim, headers, and moldings—custom-built for the house in the 20th century—were piled with the flooded, moldy drywall and thrown out.
+        This stage came with a significant hurdle: during the initial demolition process (from before Artisanal Restoration was contacted for the project), all trim, headers, and moldings—custom-built for the house in the 20th century—were thrown out with the water-damaged drywall (one normally keeps custom wood trim on hand, since old wood trim can often be restored or at least used as a model for new pieces.)
       </p>
 
       <p class="mt-2">
-        Taking this in stride, Artisanal Restoration reverse-engineered the existing trim profiles in the undamaged parts of the house, ordering cutter heads to custom-mill matching profiles for the new finish carpentry, and painstakingly hand-assembled and installed all door headers, plinth blocks, baseboards, and other trim.
+        Taking this in stride, Artisanal Restoration reverse-engineered the existing trim profiles in the undamaged parts of the house, ordered cutter heads to custom-mill matching profiles for the new finish carpentry, and painstakingly hand-assembled and installed all door headers, plinth blocks, baseboards, and other trim.
         The result: a perfect match, faithful to the original work in this historic home.
       </p>
 

@@ -21,8 +21,8 @@ import placeholderImage from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
         </p>
 
         <p class="mt-5 max-w-2xl">
-          Randall has been woodworking since high school and carries over three decades of professional experience in carpentry and adjacent trades.
-          After an N-year detour working as X for Bank of America in the 20N0s, where he gained valuable experience in management, administration, and business operations, he opened Artisanal Restoration and has spent 17 successful years serving historic homes in the Central New Jersey area.
+          Randall has been woodworking since high school and has over three decades of professional experience in carpentry and adjacent trades.
+          After an 5-year detour working as a project manager for Bank of America, where he gained valuable experience in management, administration, and business operations, he opened Artisanal Restoration and has spent 18 successful years serving historic homes in the Central New Jersey area.
         </p>
 
         <RouterLink to="/about" class="w-fit block mt-3 md:mt-8 mx-auto rounded-md border border-gray-600 px-4 py-2 text-xl hover:bg-gray-50 hover:border-gray-900 ">

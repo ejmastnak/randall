@@ -16,8 +16,8 @@ import handrailProfileImage from '@/assets/img/handrail-profile.jpg?w=500'
         </p>
 
         <p class="mt-5">
-          Randall has been woodworking since high school and carries over three decades of professional experience in carpentry and adjacent trades.
-          After an N-year detour working as X for Bank of America in the 20N0s, where he gained valuable experience in management, administration, and business operations, he opened Artisanal Restoration and has spent N successful years serving historic homes in the Central New Jersey area.
+          Randall has been woodworking since high school and has over three decades of professional experience in carpentry and adjacent trades.
+          After an 5-year detour working as a project manager for Bank of America, where he gained valuable experience in management, administration, and business operations, he opened Artisanal Restoration and has spent 18 successful years serving historic homes in the Central New Jersey area.
         </p>
       </div>
     </div>

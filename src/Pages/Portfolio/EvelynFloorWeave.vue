@@ -23,14 +23,14 @@ import completeImg from '@/assets/img/portfolio/floor-weave/complete.jpg?w=600'
     >
       <p class="max-w-xl">
         <strong class="font-bold">Background:</strong>
-        Water damage from flooding—the last straw after decades of wear and tear—forced the homeowner to replace a section of a 1950s tongue-and-groove oak floor.
+        Decades of wear and tear followed by flooding-induced water damage forced the homeowner to replace a section of a 1950s tongue-and-groove oak floor.
         The job was complicated by three issues:
       </p>
 
       <ul class="mt-2 ml-5 list-disc">
         <li>The repaired section would have to seamlessly blend into the undamaged areas of the existing floor.</li>
-        <li>When the floor was installed 70 years ago, floorboards were made with thicker wood and slightly larger tongues and grooves than the standard 3/4" boards available today—typical floorboards from current supplies aren't compatible with the original flooring.</li>
-        <li>The floor's structural framework of decades-old subfloor and underlying floor joists was decaying and poorly fastened, causing constant squeaks and sagging.</li>
+        <li>When the floor was installed 70 years ago, floorboards were made with thicker wood and slightly larger tongues and grooves than the standard 3/4" boards available today—in other words, typical floorboards from current supplies aren't compatible with the original flooring.</li>
+        <li>The decades-old subfloor and underlying floor joists were decaying and poorly fastened, causing constant squeaks and sagging.</li>
       </ul>
 
       <p class="mt-4">
@@ -50,7 +50,7 @@ import completeImg from '@/assets/img/portfolio/floor-weave/complete.jpg?w=600'
       captionClasses="max-w-sm"
     >
       <p class="max-w-2xl">
-        Artisanal Restoration immediately recognized that it was impossible to perform a quality finish floor installation on a decaying structural framework, so the job began addressing the subfloor and framing under the damaged floor.
+        Artisanal Restoration immediately recognized that it was impossible to perform a quality finish floor installation on a weak structural framework, so the job began by addressing the subfloor and framing under the damaged floor.
       </p>
 
       <p class="max-w-2xl mt-2">
@@ -69,12 +69,11 @@ import completeImg from '@/assets/img/portfolio/floor-weave/complete.jpg?w=600'
       captionClasses="max-w-sm"
     >
       <p class="max-w-2xl">
-        The repair continued by installing 3/4" plywood subfloor—with liberal fasteners and construction adhesive to prevent future squeaking—and topping this off flooring paper.
+        The repair continued by installing 3/4" plywood subfloor—using plenty of fasteners, construction adhesive, and rosin paper to prevent future squeaking.
       </p>
 
       <p class="max-w-2xl mt-2">
-        Then came the technical part: to ensure the new floorboards exactly matched the existing floor, Artisanal Restoration painstakingly resawed an additional 1/16" from the grooves of the new boards to accommodate the thicker tongues of the existing 1950s floorboards,
-        before seamlessly weaving them in to the existing floor.
+        Then came the technical part: to ensure the new floorboards exactly matched the existing floor, Artisanal Restoration painstakingly resawed an additional 1/16" from the grooves of the new boards to accommodate the thicker tongues of the existing 1950s floorboards, before seamlessly weaving them in to the existing floor.
       </p>
     </SimpleImagePanel>
 
@@ -88,12 +87,12 @@ import completeImg from '@/assets/img/portfolio/floor-weave/complete.jpg?w=600'
       captionClasses="max-w-sm"
     >
       <p class="max-w-2xl">
-        Under Artisanal Restoration's supervision, a dedicated flooring subcontractor sanded the existing finish flooring—which was due for a restoration anyway—to blend the old and new floorboards.
+        Under Artisanal Restoration's supervision, a dedicated flooring subcontractor sanded the existing finish flooring in the entire house—which was due for a restoration anyway—to blend the old and new floorboards together.
       </p>
 
       <p class="max-w-2xl mt-2">
         The job was completed by staining and finishing the sanded floor surface to protect and bring out the natural beauty of the oak's grain.
-        After refinishing, the repaired section blended perfectly into the existing floorboards and, besides the welcome lack of sagging and squeaking, was all but unrecognizable from the original floor.
+        After refinishing, the repaired section blended perfectly into the existing floorboards and was all but unrecognizable from the original floor (except for the welcome lack of sagging and squeaking!).
       </p>
     </SimpleImagePanel>
 
