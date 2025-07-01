@@ -21,11 +21,9 @@ import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
     >
         <p class="max-w-xl">
           <strong class="font-bold">Background:</strong>
-          An upstairs bathroom fixture cracked while the homeowners were travelling out of the country, leaving water flowing for days in the second floor bathroom, through the first floor ceiling, and across an entire wing of the first floor.
-          Besides direct water damage to the hardwood floors, doors, and furniture, the hot, humid summer weather led to mold growth over the interior surface of the flooded area, forcing the homeowner to tear out the interior walls, ceiling, and floor, leaving only bare studs and the exterior masonry wall.
+          An upstairs bathroom fixture developed a leak while the homeowners were travelling out of the country, leaving water leaking for days in the second floor bathroom, through the first floor ceiling and across a wing of the first floor.
+          Water damage to the hardwood floors, doors, furniture, and drywall forced the homeowner to tear out the interior walls, ceiling, and floor, leaving only studs and the exterior masonry wall.
         </p>
-
-      <p class="mt-5">This page showcases the first floor, focusing on one area for conciseness and to make it easy to follow the progression through the job.</p>
     </SimpleImagePanel>
 
     <h2 class="mt-10 text-4xl font-['Latin_Modern_Roman'] text-center">The restoration</h2>
@@ -40,7 +38,7 @@ import evelynCompleteImg from '@/assets/img/portfolio/evelyn/complete.jpg?w=600'
       captionClasses="max-w-sm"
     >
       <p class="max-w-2xl">
-        The restoration began by identifying and solving two structural issues: first, plumbing work in the 1950s left gaping notches cut into the first floor's main supporting beams, causing both the floor and the walls above it to sag;
+        The restoration began by identifying and solving two structural issues: first, plumbing work in the 1950s left large notches cut into the first floor's main supporting beams, causing both the floor and the walls above it to sag;
         second, a conversion of the first-floor bathroom in the 1980s left the floor framed with small 2x4 members, which were insufficient to support the floor and causing considerable sagging and squeaking.
       </p>
 
