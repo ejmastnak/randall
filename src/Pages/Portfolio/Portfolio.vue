@@ -24,7 +24,7 @@ import deckTwoStoryCompleteImg from '@/assets/img/portfolio/deck-two-story/compl
         :imgSrc="evelynCompleteImg"
         imgAlt="Hallway and kitchen of a 1910 home in Princeton, NJ, fully restored after flood damage"
         imgClasses="w-full max-w-lg object-top md:object-center"
-        titleText="Repairing catastrophic flood damage in a historic home."
+        titleText="Repairing flood damage in a historic home."
         linkRoute="/portfolio/flood-renovation"
         linkText="Read more"
       >
